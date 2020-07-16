@@ -41,8 +41,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a class="btn btn-md btn-warning btn-block" href="#reserve">Reserve a Table</a>
                 </div>
             </div>
         </div>
@@ -58,7 +61,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -74,8 +77,17 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last"
+                            src="img/buffet.png" alt="Uthappizza">
+                    <div class="mr-auto media-body order-sm-first">
+                        <h2 class="ml-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a 
+                            choice of five different salads, six enticing appetizers, 
+                            six main entrees and five choicest desserts. 
+                            Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -96,6 +108,54 @@
                             creating mouthwatering Indo-Italian fusion experiences.
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center" id="reserve">
+            <div class="offset-sm-3 card">
+                <h2 class="card-header bg-primary text-white">Reserve a Table</h2>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-3 col-form-label">Number of guests</label>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline1">1</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline2">2</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline3" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline3">3</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline4" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline4">4</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline5" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline5">5</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline6" name="inlineDefaultRadiosExample">
+                                <label class="custom-control-label" for="defaultInline6">6</label>
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-3 col-form-label">Date and Time</label>
+                            <div class="col-12 col-sm-4">
+                                <input type="date" class="form-control" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <input type="time" class="form-control" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <button class="offset-sm-3 btn btn-primary" role="button">Reserve</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
